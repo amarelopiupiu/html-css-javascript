@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com o DOM</title>
+    <style>
+        body {
+            background-color: pink;
+            color: black;
+            font: normal 18px Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com o DOM</h1>
+
+    <!--Instale o Live Server no Visual Studio
+        Clique com o botão direito no arquivo 
+        Open with Live Server
+    -->
+
+    <p>Aqui vai o resultado.</p>
+    <div id="msg">Clique em mim.</div>
+    <p>Aprendendo a usar o <strong>DOM</strong> em Javascript.</p>
+
+    <!--O DOM é Document Object Model
+    Árvore DOM:
+    - Window: Janela do site
+    - Location: é a URL do site
+    - Document: é o documento atual (HTML -> HEAD (META e TITLE) e BODY)
+    - History: identifica de onde você veio até onde você vai
+    -->
+
+    <script>
+
+        // window.document.write(window.document.charset) Mostrar o charset
+
+        // window.document.write(window.navigator.appName) Mostrar o navegador atual
+
+        // window.document.write(window.document.URL) Mostrar a URL
+
+        // Selecionando por marca: getElementsByTagName()
+
+        var p1 = window.document.getElementsByTagName('p')[0]
+
+         // Uma variável foi criada, dentro dela temos: window + document + selecionando por tag + escrevendo a tag dentro + selecionando qual tag é
+
+        window.document.write(p1.innerText) 
+        
+        // Vai escrever o valor da variável criada com o texto criado dentro dela
+
+        p1.style.color = 'blue'
+
+        /* Adicionando estilo na variável
+         innerText pega o conteúdo
+        Inner HTML pega o conteúdo formatado 
+        
+        
+        Podemos pegar um elemento por:
+        - getElementByTagName()
+        - getElementById()
+        - getElementsByTagName()
+        - getElementsByClassName()
+        - querySelector()
+        */
+
+        var d = document.getElementById('msg') // Podemos ocultar o 'window'
+        d.style.background = 'yellow'
+        d.innerText = 'Mudei o conteúdo' // Mudou o conteúdo 'Clique em mim' para 'Mudei o conteúdo'
+
+        var d = document.querySelector('div#msg') //Coloque o nome da tag + # ou . + nome do id ou nome da classe
+    </script>
+</body>
+</html>

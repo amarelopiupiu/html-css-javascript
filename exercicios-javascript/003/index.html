@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu terceiro programa...</title>
+    <!--Estilo css interno, com cor de fundo, cor da letra e fonte-->
+    <style>
+        body {
+            background-color: rgba(0, 0, 255, 0.212);
+            color: white;
+            font: normal 25px Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá mundo</h1>
+    <p>Vamos utilizar Javascript.</p>
+    <!--Conteúdo Javascript-->
+    <script>
+        var n1 = window.prompt('Digite um número: ') 
+        var n2 = window.prompt('Digite outro número: ')
+        var soma = n1 + n2
+        window.alert('O resultado da concatenação dos valores é ' + soma) // Vai concatenar os valores
+
+        var num1 = Number.parseInt(window.prompt('Digite um número inteiro: '))
+        var num2 = Number.parseInt(window.prompt('Digite outro número inteiro: '))
+        var soma = num1 + num2
+        window.alert(`A soma dos valores inteiros é ${soma}`) // Vai somar os valores inteiros
+
+        var nu1 = Number.parseFloat(window.prompt('Digite um número flutuante: '))
+        var nu2 = Number.parseFloat(window.prompt('Digite outro número flutuante: '))
+        var soma = nu1 + nu2
+        window.alert(`A soma dos valores flutuantes é ${soma}`) // Vai somar os valores flutuantes
+
+        var n1 = Number(window.prompt('Digite um número: '))
+        var n2 = Number(window.prompt('Digite outro número: '))
+        var soma = n1 + n2
+        window.alert(`O resultado da concatenação dos valores é ${soma}`) // Vai somar valores flutuantes ou inteiros
+
+        /* Para converter um valor para string, exemplo: String(soma)
+        Para saber quantos caracteres tem a string, exemplo: soma.lenght
+        Para deixar tudo em letra maiúscula, exemplo: soma.toUpperCase()
+        Para deixar tudo em letra minúscula, exemplo: soma.toLowerCase()
+        */
+    </script>
+</body>
+</html>
