@@ -1,4 +1,4 @@
-# Exercícios, Programas e jogos em Python
+# HTML, CSS e Javascript
 
 ## Sobre a Autora
 Oi, eu sou a Fernanda! Estou aqui para contribuir com meu conhecimento e espero poder ajudar no desenvolvimento profissional de cada um de vocês.
@@ -9,6 +9,6 @@ Oi, eu sou a Fernanda! Estou aqui para contribuir com meu conhecimento e espero 
 ## <br />Descrição
 1. Na pasta "exercicios" estão exercícios resolvidos e simples que fiz para treinar o uso do HTML e do CSS
 2. Na pasta "exercicios-javascript" também são exercícios, eu os usei para treinar Javascript
-2. Projeto para construir tela inicial do Instagram (Em construção) 
+2. Construção da tela inicial do Instagram 
 
 
