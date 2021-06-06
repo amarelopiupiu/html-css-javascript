@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<<<<<<< HEAD
+<html lang="en">
+=======
+<html lang="pt-br">
+>>>>>>> b351718f1eab6af04f80ab161c68cb752ff65e5a
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
+    <title>Modelo de caixas</title>
+    <style>
+        h1 {
+            background-color: aliceblue;
+            height: 300px;
+            width: 300px;
+            border-width: 10px; /*é largura da borda*/
+            border-style: solid;
+            border-color: darkgreen;
+            padding: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+        a {
+            border-width: 5px;
+            border-style: dashed; /*dashed: pontilhado/quadrado, dotted: pontilhado/círculo*, double: linha dupla, groove: 2 cores*/
+            border-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">são exemplos de inline-level</a>. Vamos ver como tudo isso funciona.</p>
+    <!--Vá no google chrome, com o botão direito, clique em 'inspecionar', vá em 'elementos', quando você inspeciona um elemento, você pode mudar os valores pelos elementos do navegador sem afetar no código original-->
+=======
+    <title>Exemplo de Hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div:hover {
+            color: red;
+        }
+
+        div:hover > p { /*Quando colocar o mouse em cima do parágrafo filho da div*/
+            display: none; /*Vai esconder o parágrafo*/
+        }
+
+        div:hover > p {
+            display: block; /*Vai mostrar o parágrafo*/
+            color: white; 
+            background-color: red;
+            width: 300px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>Texto escondido...</p>
+    </div>
+    <p>Fim do exemplo</p>
+>>>>>>> b351718f1eab6af04f80ab161c68cb752ff65e5a
+</body>
+</html>

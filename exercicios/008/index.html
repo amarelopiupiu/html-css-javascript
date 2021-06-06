@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <!--Listas ordenadas-->
+    <h2>Listas ordenadas</h2>
+    <!--Lista numérica que começa em 5-->
+    <ol type="1" start="5">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <!--
+        O type pode ser:
+        1- numérico 
+        A- ordem alfabética com letras maiúsculas
+        a- ordem alfabética com letras minúsculas
+        I- números romanos com letras maiúsculas
+        i- números romanos com letras minúsculas
+
+        O start serve para colocar a partir de onde você quer que comece com o número
+        para letras precisa colocar o a posição que a letra se encontra
+    -->
+
+    <!--
+        Listas não ordenadas
+        O type pode ser:
+        disc- padrão
+        circle- bolinha branca
+        square- quadrado
+    -->
+    <ul type="disc">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Arroz</li>
+        <li>Manteiga</li>
+        <li>Feijão</li>
+    </ul>
+    <!--Exemplo criando lista-->
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>Javascript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <!--Listas mistas-->
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de estilo</dd>
+    </dl>
+</body>
+</html>

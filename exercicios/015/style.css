@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #F1D8C9, #F2C3A7);
+}
+
+main {
+    background-color: rgba(109, 106, 106, 0.192);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(151, 108, 108, 0.404);
+    width: 600px;
+    padding: 16px;
+    margin: auto; /*A caixa vai ficar centralizada no meio*/
+}
+
+h1 {
+    color: #F39209;
+    text-align: center;
+    text-shadow: 1px 1px 0px #af6b0d67;
+}
+
+h2 {
+    color: #125189
+}
+
+p { 
+    text-align: justify;
+}

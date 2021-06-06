@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Links externos</h1>
+    <!--Acessando um link externo
+        - o blank faz com que o link seja aberto em outra guia
+        - o external diz que é um link fora do site
+    -->
+    <p>Você pode acessar meu perfil do Github <a href="https://github.com/FernandaMakiHirose" target="_blank" rel="external">aqui</a></p>
+
+    <!--Acessando a segunda página do site
+        no rel usou o next, porque é a próxima página de navegação
+    -->
+    <h1>Links internos</h1>
+    <p>Esta é a primeira página do site. Se você quiser você pode acessar a minha <a href="pag2.html" rel="next">segunda página</a></p>
+    <!--
+        No rel usou o nofollow, porque não quero que os mecanismos de buscas relacionam esse canal com o meu site
+    -->
+    <p>Eu estou aprendendo HTML com o canal <a href="https://www.youtube.com/user/cursosemvideo" rel="nofollow" target="_blank">Curso em vídeo</a></p>
+    <p>Você também pode acessar a <a href="noticias/noticias.html">terceira página</a></p>
+
+    <h1>Links para download do Curso em vídeo</h1>
+    <ul>
+        <li><a href="livro/01 - História da Internet.pdf" download="01 - História da Internet.pdf" type="application/pdf">História da internet</a></li>
+        <li><a href="livro/02 - Como funciona a Internet.pdf" download="02 - Como funciona a Internet.pdf" type="application/pdf">Como funciona a internet</a></li>
+        <li><a href="livro/03 - Como funciona HTML e CSS.pdf" download="03 - Como funciona HTML e CSS.pdf" type="application/pdf">Como funciona HTML e CSS</a></li>
+        <li><a href="livro/04 - Primeiros passos HTML.pdf" download="04 - Primeiros passos HTML.pdf" type="application/pdf">Primeiros passos HTML</a></li>
+        <li><a href="livro/05 - Caracteres, parágrafos e quebras de linha.pdf" download="05 - Caracteres, parágrafos e quebras de linha.pdf" type="application/pdf">Caracteres, parágrafos e quebras de linha</a></li>
+        <li><a href="livro/06 - Imagens e Favicon.pdf" download="06 - Imagens e Favicon.pdf" type="application/pdf">Imagens e Favicon</a></li>
+        <li><a href="livro/07 - Hierarquia de títulos.pdf" download="07 - Hierarquia de títulos.pdf" type="application/pdf">Hierarquia de títulos</a></li>
+        <li><a href="livro/08 - Formatação de Textos.pdf" download="08 - Formatação de Textos.pdf" type="application/pdf">Formatação de Textos</a></li>
+        <li><a href="livro/09 - Listas HTML.pdf" download="09 - Listas HTML.pdf" type="application/pdf">Listas HTML</a></li>
+        <li><a href="livro/10 - Ligações em toda parte.pdf" download="10 - Ligações em toda parte.pdf" type="application/pdf">Ligações em toda parte</a></li>
+        <li><a href="livro/11 - Imagens dinâmicas, áudios e vídeos.pdf" download="11 - Imagens dinâmicas, áudios e vídeos.pdf" type="application/pdf">Imagens dinâmicas, áudios e vídeos</a></li>
+        <li><a href="livro/12 - Trabalhando com estilos.pdf" download="12 - Trabalhando com estilos.pdf" type="application/pdf">Trabalhando com estilos</a></li>
+        <li><a href="livro/13 - Cores.pdf" download="13 - Cores.pdf" type="application/pdf">Cores</a></li>
+        <li><a href="livro/14 - Fontes.pdf" download="4 - Fontes.pdf" type="application/pdf">Fontes</a></li>
+    </ul>
+</body>
+</html>

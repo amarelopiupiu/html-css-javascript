@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte</h2>
+    <!--A tag code serve para colocar um código, a leitura é mais fácil-->
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem Javascript.</p>
+
+    <!--Colocando a tag pre antes da tag code deixa o código formatado com espaços-->
+    <pre>
+        <code>
+    num = int(input('Digite um número: '))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR.')
+    if num % 2 == 1:
+        print(f'O número {num} é ÍMPAR.')
+    print('FIM DO PROGRAMA')
+        </code>
+    </pre>
+
+    <!--A tag q é uma citação, vai adicionar as aspas-->
+    <h2>Citações simples</h2>
+    <p>Como diria um pai de um amigo <q>O computador é um burro mais rápido.</q></p>
+
+    <!--A tag blockquote coloca uma citação formatada, o cite serve para colocar a URL de onde você encontrou tal informação, isso ajuda os mecanismos de buscas-->
+    <h2>Citações completas</h2>
+    <p>Segundo Jeff Noble, no seu livro Lógica para Leigos:</p>
+    <blockquote cite="https://www.americanas.com.br/produto/116209631/livro-logica-para-leigos?opn=YSMESP&sellerid=02&epar=bp_pl_00_go_liv_todas_geral_gmv&WT.srch=1&acc=e789ea56094489dffd798f86ff51c7a9&i=5612cbe46ed24cafb5cae011&o=55cecbf59c3238c7d1b7de07&gclid=EAIaIQobChMIpf6zxJiI8AIVEQqRCh1yuwaWEAQYAyABEgLMcfD_BwE">
+        Desde a parte mais simples da Lógica até os tipos mais complicados, como a Lógica Predicativa, este livro cobre este vasto cenário de forma fácil e com linguagem muito simples! Fornece meios para o desenvolvimento do raciocínio lógico e dicas, até mesmo, para os problemas das suas provas e exames! 
+    </blockquote>
+
+    <!--A tag abbr vai adicionar o signigicado de uma abreviação-->
+    <h2>Abreviações</h2>
+    <p>É importante estudar <abbr title="Hypertext Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+
+    <!--Texto invertido-->
+    <h2>Texto invertido</h2>
+    <!--Texto invertido da direita para esquerda-->
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+    <!--Texto invertido da esquerda para direita-->
+    <p><bdo dir="ltr">Estou aprendendo a criar coisas em HTML</bdo></p>
+</body>
+</html>
