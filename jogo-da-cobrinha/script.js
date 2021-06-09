@@ -33,7 +33,7 @@ function criarCobrinha (){
 }
 
 function drawFood (){
-    context.fillStyle = "purple"; // cor da fruta
+    context.fillStyle = "#B5D50B"; // cor da fruta
     context.fillRect(food.x, food.y, box, box); // cordenadas da fruta
 }
 
