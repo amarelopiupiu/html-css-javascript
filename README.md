@@ -11,6 +11,7 @@ Oi, eu sou a Fernanda! Estou aqui para contribuir com meu conhecimento e espero 
 2. Na pasta "exercicios-html-css": exercícios resolvidos e simples que fiz para treinar o uso do HTML e do CSS
 3. Na pasta "exercicios-javascript": também são exercícios para treinar Javascript
 4. Na pasta "instagram": projeto de construção da tela inicial do Instagram 
-5. Na pasta "netflix": projeto de contrução da tela da Netflix 
+5. Na pasta "jogo-da-cobrinha": Recriei o famoso jogo nos anos 2000, Snake
+6. Na pasta "netflix": projeto de contrução da tela da Netflix 
 
 
