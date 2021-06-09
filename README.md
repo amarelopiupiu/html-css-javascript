@@ -7,9 +7,10 @@ Oi, eu sou a Fernanda! Estou aqui para contribuir com meu conhecimento e espero 
 
 
 ## <br />Descrição
-1. Na pasta "exercicios": exercícios resolvidos e simples que fiz para treinar o uso do HTML e do CSS
-2. Na pasta "exercicios-javascript": também são exercícios para treinar Javascript
-3. Na pasta "instagram": projeto de construção da tela inicial do Instagram 
-4. Na pasta "netflix": projeto de contrução da tela da Netflix 
+1. Na pasta 'bootstrap': projeto de construção de um portfólio usando o Bootstrap
+2. Na pasta "exercicios-html-css": exercícios resolvidos e simples que fiz para treinar o uso do HTML e do CSS
+3. Na pasta "exercicios-javascript": também são exercícios para treinar Javascript
+4. Na pasta "instagram": projeto de construção da tela inicial do Instagram 
+5. Na pasta "netflix": projeto de contrução da tela da Netflix 
 
 
