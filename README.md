@@ -1,4 +1,5 @@
 # Exercícios para treinar Javascript
+O JavaScript é uma linguagem de programação amplamente utilizada para diferentes finalidades. Desde validação de campos à criação de menus, é possível fazer muita coisa usando essa linguagem que adiciona algum dinamismo às páginas que apenas com HTML e CSS são consideradas “estáticas”. 
 
 ## Sobre a Autora
 Oi, eu sou a Fernanda! Estou aqui para contribuir com meu conhecimento e espero poder ajudar no desenvolvimento profissional de cada um de vocês.
